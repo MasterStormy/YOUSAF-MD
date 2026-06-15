@@ -1,0 +1,21 @@
+{
+  "name": "YOUSAF-MD",
+  "description": "YOUSAF-MD WhatsApp bot made by YOUSAFMD official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","YOUSAF-MD","YOUSAF-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the YOUSAF-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
